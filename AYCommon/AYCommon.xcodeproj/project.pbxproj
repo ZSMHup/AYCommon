@@ -16,6 +16,15 @@
 		E152D0E120ABF2A2002D00E6 /* AYQRCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E020ABF2A2002D00E6 /* AYQRCodeAlbumManager.m */; };
 		E152D0E420ABF3CD002D00E6 /* UIImage+AYImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E320ABF3CD002D00E6 /* UIImage+AYImageSize.m */; };
 		E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E620ABF969002D00E6 /* AYQRCodeScanningView.m */; };
+		E188B7B120AC1B1A0012E78F /* AYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7B020AC1B1A0012E78F /* AYKeychain.m */; };
+		E188B7B520AC1C750012E78F /* UIColor+AYHex.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7B420AC1C750012E78F /* UIColor+AYHex.m */; };
+		E188B7B820AC1CD90012E78F /* UITableViewCell+AYFastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7B720AC1CD90012E78F /* UITableViewCell+AYFastCell.m */; };
+		E188B7BB20AC1DA50012E78F /* UIButton+AYCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7BA20AC1DA50012E78F /* UIButton+AYCountdown.m */; };
+		E188B7BE20AC1F0C0012E78F /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7BD20AC1F0C0012E78F /* UITextView+Placeholder.m */; };
+		E188B7C620AC21180012E78F /* NSDate+AYDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7C520AC21180012E78F /* NSDate+AYDate.m */; };
+		E188B7CC20AC26240012E78F /* AYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7CB20AC26240012E78F /* AYTextField.m */; };
+		E188B7CF20AC268B0012E78F /* AYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7CE20AC268B0012E78F /* AYTextView.m */; };
+		E188B7D420AC32480012E78F /* UIView+AYView.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7D320AC32480012E78F /* UIView+AYView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +66,26 @@
 		E152D0ED20ABFB61002D00E6 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
 		E152D0EE20ABFB61002D00E6 /* QRCodeScanningLineGrid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLineGrid@3x.png"; sourceTree = "<group>"; };
 		E152D0EF20ABFB61002D00E6 /* QRCodeScanningLineGrid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLineGrid@2x.png"; sourceTree = "<group>"; };
+		E188B7AF20AC1B1A0012E78F /* AYKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYKeychain.h; sourceTree = "<group>"; };
+		E188B7B020AC1B1A0012E78F /* AYKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYKeychain.m; sourceTree = "<group>"; };
+		E188B7B320AC1C750012E78F /* UIColor+AYHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+AYHex.h"; sourceTree = "<group>"; };
+		E188B7B420AC1C750012E78F /* UIColor+AYHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AYHex.m"; sourceTree = "<group>"; };
+		E188B7B620AC1CD90012E78F /* UITableViewCell+AYFastCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+AYFastCell.h"; sourceTree = "<group>"; };
+		E188B7B720AC1CD90012E78F /* UITableViewCell+AYFastCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+AYFastCell.m"; sourceTree = "<group>"; };
+		E188B7B920AC1DA50012E78F /* UIButton+AYCountdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+AYCountdown.h"; sourceTree = "<group>"; };
+		E188B7BA20AC1DA50012E78F /* UIButton+AYCountdown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AYCountdown.m"; sourceTree = "<group>"; };
+		E188B7BC20AC1F0C0012E78F /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		E188B7BD20AC1F0C0012E78F /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		E188B7C020AC1FF50012E78F /* AYSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYSingleton.h; sourceTree = "<group>"; };
+		E188B7C420AC21180012E78F /* NSDate+AYDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+AYDate.h"; sourceTree = "<group>"; };
+		E188B7C520AC21180012E78F /* NSDate+AYDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AYDate.m"; sourceTree = "<group>"; };
+		E188B7CA20AC26240012E78F /* AYTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTextField.h; sourceTree = "<group>"; };
+		E188B7CB20AC26240012E78F /* AYTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYTextField.m; sourceTree = "<group>"; };
+		E188B7CD20AC268B0012E78F /* AYTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTextView.h; sourceTree = "<group>"; };
+		E188B7CE20AC268B0012E78F /* AYTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYTextView.m; sourceTree = "<group>"; };
+		E188B7D120AC29160012E78F /* AYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMacro.h; sourceTree = "<group>"; };
+		E188B7D220AC32480012E78F /* UIView+AYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AYView.h"; sourceTree = "<group>"; };
+		E188B7D320AC32480012E78F /* UIView+AYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +118,10 @@
 		E152D0AA20ABC30F002D00E6 /* AYCommon */ = {
 			isa = PBXGroup;
 			children = (
+				E188B7D020AC283C0012E78F /* Macro */,
+				E188B7C720AC25860012E78F /* UI */,
+				E188B7AD20AC1AEA0012E78F /* Category */,
+				E188B7AE20AC1AEA0012E78F /* Utils */,
 				E152D0B420ABC4FB002D00E6 /* Manager */,
 			);
 			path = AYCommon;
@@ -166,6 +199,70 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		E188B7AD20AC1AEA0012E78F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E188B7B320AC1C750012E78F /* UIColor+AYHex.h */,
+				E188B7B420AC1C750012E78F /* UIColor+AYHex.m */,
+				E188B7B620AC1CD90012E78F /* UITableViewCell+AYFastCell.h */,
+				E188B7B720AC1CD90012E78F /* UITableViewCell+AYFastCell.m */,
+				E188B7B920AC1DA50012E78F /* UIButton+AYCountdown.h */,
+				E188B7BA20AC1DA50012E78F /* UIButton+AYCountdown.m */,
+				E188B7BC20AC1F0C0012E78F /* UITextView+Placeholder.h */,
+				E188B7BD20AC1F0C0012E78F /* UITextView+Placeholder.m */,
+				E188B7C420AC21180012E78F /* NSDate+AYDate.h */,
+				E188B7C520AC21180012E78F /* NSDate+AYDate.m */,
+				E188B7D220AC32480012E78F /* UIView+AYView.h */,
+				E188B7D320AC32480012E78F /* UIView+AYView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E188B7AE20AC1AEA0012E78F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E188B7AF20AC1B1A0012E78F /* AYKeychain.h */,
+				E188B7B020AC1B1A0012E78F /* AYKeychain.m */,
+				E188B7C020AC1FF50012E78F /* AYSingleton.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E188B7C720AC25860012E78F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E188B7C920AC26030012E78F /* UITextField */,
+				E188B7C820AC26030012E78F /* UITextView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E188B7C820AC26030012E78F /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				E188B7CD20AC268B0012E78F /* AYTextView.h */,
+				E188B7CE20AC268B0012E78F /* AYTextView.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		E188B7C920AC26030012E78F /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				E188B7CA20AC26240012E78F /* AYTextField.h */,
+				E188B7CB20AC26240012E78F /* AYTextField.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		E188B7D020AC283C0012E78F /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				E188B7D120AC29160012E78F /* AYMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,15 +321,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E188B7CF20AC268B0012E78F /* AYTextView.m in Sources */,
 				E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */,
+				E188B7BE20AC1F0C0012E78F /* UITextView+Placeholder.m in Sources */,
 				E152D0DE20ABE6BF002D00E6 /* AYQRCodeScanManager.m in Sources */,
 				E152D0E120ABF2A2002D00E6 /* AYQRCodeAlbumManager.m in Sources */,
+				E188B7D420AC32480012E78F /* UIView+AYView.m in Sources */,
 				E152D0BF20ABC647002D00E6 /* NSString+AYHash.m in Sources */,
 				E152D0D020ABCDAE002D00E6 /* AYWebView.m in Sources */,
 				E152D0E420ABF3CD002D00E6 /* UIImage+AYImageSize.m in Sources */,
 				E152D0BB20ABC59C002D00E6 /* AYFileSessionModel.m in Sources */,
+				E188B7BB20AC1DA50012E78F /* UIButton+AYCountdown.m in Sources */,
+				E188B7B120AC1B1A0012E78F /* AYKeychain.m in Sources */,
+				E188B7B520AC1C750012E78F /* UIColor+AYHex.m in Sources */,
+				E188B7CC20AC26240012E78F /* AYTextField.m in Sources */,
+				E188B7C620AC21180012E78F /* NSDate+AYDate.m in Sources */,
 				E152D0DD20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m in Sources */,
 				E152D0B820ABC539002D00E6 /* AYFileDownloadManager.m in Sources */,
+				E188B7B820AC1CD90012E78F /* UITableViewCell+AYFastCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

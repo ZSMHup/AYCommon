@@ -128,11 +128,11 @@ static AYQRCodeScanManager *_instance;
                         [self creatSessionPreset:sessionPreset metadataObjectTypes:metadataObjectTypes currentController:currentController];
                     });
                     // 用户第一次同意了访问相机权限
-                    //                    NSLog(@"用户第一次同意了访问相机权限 - - %@", [NSThread currentThread]);
-                    
+                    //NSLog(@"用户第一次同意了访问相机权限 - - %@", [NSThread currentThread]);
+                
                 } else {
                     // 用户第一次拒绝了访问相机权限
-                    //                    NSLog(@"用户第一次拒绝了访问相机权限 - - %@", [NSThread currentThread]);
+                    // NSLog(@"用户第一次拒绝了访问相机权限 - - %@", [NSThread currentThread]);
                     dispatch_sync(dispatch_get_main_queue(), ^{
                         [currentController.navigationController popViewControllerAnimated:YES];
                     });
@@ -254,8 +254,6 @@ static AYQRCodeScanManager *_instance;
     CFRelease(metadataDict);
     NSDictionary *exifMetadata = [[metadata objectForKey:(NSString *)kCGImagePropertyExifDictionary] mutableCopy];
     float brightnessValue = [[exifMetadata objectForKey:(NSString *)kCGImagePropertyExifBrightnessValue] floatValue];
-    
-    //    NSLog(@"brightnessValue: %f",brightnessValue);
     
     if (self.delegate && [self.delegate respondsToSelector:@selector(QRCodeScanManager:brightnessValue:)]) {
         [self.delegate QRCodeScanManager:self brightnessValue:brightnessValue];
