@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E152D0AD20ABC30F002D00E6 /* AYCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0AC20ABC30F002D00E6 /* AYCommon.m */; };
-		E152D0AE20ABC30F002D00E6 /* AYCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E152D0AB20ABC30F002D00E6 /* AYCommon.h */; };
+		E152D0B820ABC539002D00E6 /* AYFileDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0B720ABC539002D00E6 /* AYFileDownloadManager.m */; };
+		E152D0BB20ABC59C002D00E6 /* AYFileSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0BA20ABC59C002D00E6 /* AYFileSessionModel.m */; };
+		E152D0BF20ABC647002D00E6 /* NSString+AYHash.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0BE20ABC647002D00E6 /* NSString+AYHash.m */; };
+		E152D0D020ABCDAE002D00E6 /* AYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0CF20ABCDAE002D00E6 /* AYWebView.m */; };
+		E152D0DD20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0DA20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m */; };
+		E152D0DE20ABE6BF002D00E6 /* AYQRCodeScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0DC20ABE6BF002D00E6 /* AYQRCodeScanManager.m */; };
+		E152D0E120ABF2A2002D00E6 /* AYQRCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E020ABF2A2002D00E6 /* AYQRCodeAlbumManager.m */; };
+		E152D0E420ABF3CD002D00E6 /* UIImage+AYImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E320ABF3CD002D00E6 /* UIImage+AYImageSize.m */; };
+		E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E620ABF969002D00E6 /* AYQRCodeScanningView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +25,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E152D0AE20ABC30F002D00E6 /* AYCommon.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +32,31 @@
 
 /* Begin PBXFileReference section */
 		E152D0A820ABC30F002D00E6 /* libAYCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAYCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E152D0AB20ABC30F002D00E6 /* AYCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYCommon.h; sourceTree = "<group>"; };
-		E152D0AC20ABC30F002D00E6 /* AYCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYCommon.m; sourceTree = "<group>"; };
+		E152D0B620ABC539002D00E6 /* AYFileDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYFileDownloadManager.h; sourceTree = "<group>"; };
+		E152D0B720ABC539002D00E6 /* AYFileDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYFileDownloadManager.m; sourceTree = "<group>"; };
+		E152D0B920ABC59C002D00E6 /* AYFileSessionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYFileSessionModel.h; sourceTree = "<group>"; };
+		E152D0BA20ABC59C002D00E6 /* AYFileSessionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYFileSessionModel.m; sourceTree = "<group>"; };
+		E152D0BD20ABC647002D00E6 /* NSString+AYHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AYHash.h"; sourceTree = "<group>"; };
+		E152D0BE20ABC647002D00E6 /* NSString+AYHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AYHash.m"; sourceTree = "<group>"; };
+		E152D0CE20ABCDAE002D00E6 /* AYWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYWebView.h; sourceTree = "<group>"; };
+		E152D0CF20ABCDAE002D00E6 /* AYWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYWebView.m; sourceTree = "<group>"; };
+		E152D0D920ABE6BF002D00E6 /* AYQRCodeGenerateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYQRCodeGenerateManager.h; sourceTree = "<group>"; };
+		E152D0DA20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYQRCodeGenerateManager.m; sourceTree = "<group>"; };
+		E152D0DB20ABE6BF002D00E6 /* AYQRCodeScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYQRCodeScanManager.h; sourceTree = "<group>"; };
+		E152D0DC20ABE6BF002D00E6 /* AYQRCodeScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYQRCodeScanManager.m; sourceTree = "<group>"; };
+		E152D0DF20ABF2A2002D00E6 /* AYQRCodeAlbumManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYQRCodeAlbumManager.h; sourceTree = "<group>"; };
+		E152D0E020ABF2A2002D00E6 /* AYQRCodeAlbumManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYQRCodeAlbumManager.m; sourceTree = "<group>"; };
+		E152D0E220ABF3CD002D00E6 /* UIImage+AYImageSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+AYImageSize.h"; sourceTree = "<group>"; };
+		E152D0E320ABF3CD002D00E6 /* UIImage+AYImageSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AYImageSize.m"; sourceTree = "<group>"; };
+		E152D0E520ABF969002D00E6 /* AYQRCodeScanningView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYQRCodeScanningView.h; sourceTree = "<group>"; };
+		E152D0E620ABF969002D00E6 /* AYQRCodeScanningView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYQRCodeScanningView.m; sourceTree = "<group>"; };
+		E152D0E920ABFB61002D00E6 /* QRCodeScanningLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLine@3x.png"; sourceTree = "<group>"; };
+		E152D0EA20ABFB61002D00E6 /* QRCodeFlashlightCloseImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRCodeFlashlightCloseImage.png; sourceTree = "<group>"; };
+		E152D0EB20ABFB61002D00E6 /* QRCodeScanningLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLine@2x.png"; sourceTree = "<group>"; };
+		E152D0EC20ABFB61002D00E6 /* QRCodeFlashlightOpenImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRCodeFlashlightOpenImage.png; sourceTree = "<group>"; };
+		E152D0ED20ABFB61002D00E6 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
+		E152D0EE20ABFB61002D00E6 /* QRCodeScanningLineGrid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLineGrid@3x.png"; sourceTree = "<group>"; };
+		E152D0EF20ABFB61002D00E6 /* QRCodeScanningLineGrid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLineGrid@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +89,81 @@
 		E152D0AA20ABC30F002D00E6 /* AYCommon */ = {
 			isa = PBXGroup;
 			children = (
-				E152D0AB20ABC30F002D00E6 /* AYCommon.h */,
-				E152D0AC20ABC30F002D00E6 /* AYCommon.m */,
+				E152D0B420ABC4FB002D00E6 /* Manager */,
 			);
 			path = AYCommon;
+			sourceTree = "<group>";
+		};
+		E152D0B420ABC4FB002D00E6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E152D0D820ABE6BF002D00E6 /* AYQRCodeManager */,
+				E152D0CD20ABCD8A002D00E6 /* AYWebView */,
+				E152D0B520ABC525002D00E6 /* AYFileDownloadManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E152D0B520ABC525002D00E6 /* AYFileDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				E152D0B620ABC539002D00E6 /* AYFileDownloadManager.h */,
+				E152D0B720ABC539002D00E6 /* AYFileDownloadManager.m */,
+				E152D0B920ABC59C002D00E6 /* AYFileSessionModel.h */,
+				E152D0BA20ABC59C002D00E6 /* AYFileSessionModel.m */,
+				E152D0BC20ABC61D002D00E6 /* MD5 */,
+			);
+			path = AYFileDownloadManager;
+			sourceTree = "<group>";
+		};
+		E152D0BC20ABC61D002D00E6 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				E152D0BD20ABC647002D00E6 /* NSString+AYHash.h */,
+				E152D0BE20ABC647002D00E6 /* NSString+AYHash.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		E152D0CD20ABCD8A002D00E6 /* AYWebView */ = {
+			isa = PBXGroup;
+			children = (
+				E152D0CE20ABCDAE002D00E6 /* AYWebView.h */,
+				E152D0CF20ABCDAE002D00E6 /* AYWebView.m */,
+			);
+			path = AYWebView;
+			sourceTree = "<group>";
+		};
+		E152D0D820ABE6BF002D00E6 /* AYQRCodeManager */ = {
+			isa = PBXGroup;
+			children = (
+				E152D0D920ABE6BF002D00E6 /* AYQRCodeGenerateManager.h */,
+				E152D0DA20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m */,
+				E152D0DB20ABE6BF002D00E6 /* AYQRCodeScanManager.h */,
+				E152D0DC20ABE6BF002D00E6 /* AYQRCodeScanManager.m */,
+				E152D0E520ABF969002D00E6 /* AYQRCodeScanningView.h */,
+				E152D0E620ABF969002D00E6 /* AYQRCodeScanningView.m */,
+				E152D0DF20ABF2A2002D00E6 /* AYQRCodeAlbumManager.h */,
+				E152D0E020ABF2A2002D00E6 /* AYQRCodeAlbumManager.m */,
+				E152D0E220ABF3CD002D00E6 /* UIImage+AYImageSize.h */,
+				E152D0E320ABF3CD002D00E6 /* UIImage+AYImageSize.m */,
+				E152D0E820ABFAF9002D00E6 /* Resource */,
+			);
+			path = AYQRCodeManager;
+			sourceTree = "<group>";
+		};
+		E152D0E820ABFAF9002D00E6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E152D0EA20ABFB61002D00E6 /* QRCodeFlashlightCloseImage.png */,
+				E152D0EC20ABFB61002D00E6 /* QRCodeFlashlightOpenImage.png */,
+				E152D0EB20ABFB61002D00E6 /* QRCodeScanningLine@2x.png */,
+				E152D0E920ABFB61002D00E6 /* QRCodeScanningLine@3x.png */,
+				E152D0EF20ABFB61002D00E6 /* QRCodeScanningLineGrid@2x.png */,
+				E152D0EE20ABFB61002D00E6 /* QRCodeScanningLineGrid@3x.png */,
+				E152D0ED20ABFB61002D00E6 /* sound.caf */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +192,7 @@
 		E152D0A020ABC30F002D00E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AY;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = ZSM;
 				TargetAttributes = {
@@ -123,7 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E152D0AD20ABC30F002D00E6 /* AYCommon.m in Sources */,
+				E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */,
+				E152D0DE20ABE6BF002D00E6 /* AYQRCodeScanManager.m in Sources */,
+				E152D0E120ABF2A2002D00E6 /* AYQRCodeAlbumManager.m in Sources */,
+				E152D0BF20ABC647002D00E6 /* NSString+AYHash.m in Sources */,
+				E152D0D020ABCDAE002D00E6 /* AYWebView.m in Sources */,
+				E152D0E420ABF3CD002D00E6 /* UIImage+AYImageSize.m in Sources */,
+				E152D0BB20ABC59C002D00E6 /* AYFileSessionModel.m in Sources */,
+				E152D0DD20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m in Sources */,
+				E152D0B820ABC539002D00E6 /* AYFileDownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -227,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
