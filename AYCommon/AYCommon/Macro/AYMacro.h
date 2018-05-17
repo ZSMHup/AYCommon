@@ -70,7 +70,7 @@ do { \
 
 // 开发的时候打印，但是发布的时候不打印的NSLog
 #ifdef DEBUG
-#define NSLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#define NSLog(...) NSLog(@"%s 第%d行 \n %@",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
 #else
 #define NSLog(...)
 #endif
@@ -81,9 +81,9 @@ do { \
 #define kRandomColor           kRGBColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256))
 
 // 弱引用/强引用
-#define kWeakSelf(type)   __weak typeof(type) weak##type = type;
+#define kWeakSelf(type) __weak typeof(type) weak##type = type;
 #define kStrongSelf(type) __strong typeof(type) type = weak##type;
 
 
-
 #endif /* AYMacro_h */
+

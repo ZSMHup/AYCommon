@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E109A82B20AD5F3100D88EE6 /* AYTextHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E109A82A20AD5F3100D88EE6 /* AYTextHelper.m */; };
+		E109A82E20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E109A82D20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.m */; };
 		E152D0B820ABC539002D00E6 /* AYFileDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0B720ABC539002D00E6 /* AYFileDownloadManager.m */; };
 		E152D0BB20ABC59C002D00E6 /* AYFileSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0BA20ABC59C002D00E6 /* AYFileSessionModel.m */; };
 		E152D0BF20ABC647002D00E6 /* NSString+AYHash.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0BE20ABC647002D00E6 /* NSString+AYHash.m */; };
@@ -16,6 +18,7 @@
 		E152D0E120ABF2A2002D00E6 /* AYQRCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E020ABF2A2002D00E6 /* AYQRCodeAlbumManager.m */; };
 		E152D0E420ABF3CD002D00E6 /* UIImage+AYImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E320ABF3CD002D00E6 /* UIImage+AYImageSize.m */; };
 		E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = E152D0E620ABF969002D00E6 /* AYQRCodeScanningView.m */; };
+		E183D12120AD135200FF986C /* AYNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E183D12020AD135200FF986C /* AYNotification.m */; };
 		E188B7B120AC1B1A0012E78F /* AYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7B020AC1B1A0012E78F /* AYKeychain.m */; };
 		E188B7B520AC1C750012E78F /* UIColor+AYHex.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7B420AC1C750012E78F /* UIColor+AYHex.m */; };
 		E188B7B820AC1CD90012E78F /* UITableViewCell+AYFastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7B720AC1CD90012E78F /* UITableViewCell+AYFastCell.m */; };
@@ -40,6 +43,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E109A82920AD5F3100D88EE6 /* AYTextHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTextHelper.h; sourceTree = "<group>"; };
+		E109A82A20AD5F3100D88EE6 /* AYTextHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYTextHelper.m; sourceTree = "<group>"; };
+		E109A82C20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+AYLabelTextHelper.h"; sourceTree = "<group>"; };
+		E109A82D20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AYLabelTextHelper.m"; sourceTree = "<group>"; };
 		E152D0A820ABC30F002D00E6 /* libAYCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAYCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E152D0B620ABC539002D00E6 /* AYFileDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYFileDownloadManager.h; sourceTree = "<group>"; };
 		E152D0B720ABC539002D00E6 /* AYFileDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYFileDownloadManager.m; sourceTree = "<group>"; };
@@ -66,6 +73,8 @@
 		E152D0ED20ABFB61002D00E6 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
 		E152D0EE20ABFB61002D00E6 /* QRCodeScanningLineGrid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLineGrid@3x.png"; sourceTree = "<group>"; };
 		E152D0EF20ABFB61002D00E6 /* QRCodeScanningLineGrid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLineGrid@2x.png"; sourceTree = "<group>"; };
+		E183D11F20AD135200FF986C /* AYNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYNotification.h; sourceTree = "<group>"; };
+		E183D12020AD135200FF986C /* AYNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYNotification.m; sourceTree = "<group>"; };
 		E188B7AF20AC1B1A0012E78F /* AYKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYKeychain.h; sourceTree = "<group>"; };
 		E188B7B020AC1B1A0012E78F /* AYKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYKeychain.m; sourceTree = "<group>"; };
 		E188B7B320AC1C750012E78F /* UIColor+AYHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+AYHex.h"; sourceTree = "<group>"; };
@@ -99,6 +108,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E109A82820AD5EFA00D88EE6 /* AYTextHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E109A82920AD5F3100D88EE6 /* AYTextHelper.h */,
+				E109A82A20AD5F3100D88EE6 /* AYTextHelper.m */,
+				E109A82C20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.h */,
+				E109A82D20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.m */,
+			);
+			path = AYTextHelper;
+			sourceTree = "<group>";
+		};
 		E152D09F20ABC30F002D00E6 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +150,7 @@
 		E152D0B420ABC4FB002D00E6 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				E109A82820AD5EFA00D88EE6 /* AYTextHelper */,
 				E152D0D820ABE6BF002D00E6 /* AYQRCodeManager */,
 				E152D0CD20ABCD8A002D00E6 /* AYWebView */,
 				E152D0B520ABC525002D00E6 /* AYFileDownloadManager */,
@@ -259,6 +280,8 @@
 			isa = PBXGroup;
 			children = (
 				E188B7D120AC29160012E78F /* AYMacro.h */,
+				E183D11F20AD135200FF986C /* AYNotification.h */,
+				E183D12020AD135200FF986C /* AYNotification.m */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -321,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E183D12120AD135200FF986C /* AYNotification.m in Sources */,
 				E188B7CF20AC268B0012E78F /* AYTextView.m in Sources */,
 				E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */,
 				E188B7BE20AC1F0C0012E78F /* UITextView+Placeholder.m in Sources */,
@@ -336,9 +360,11 @@
 				E188B7B520AC1C750012E78F /* UIColor+AYHex.m in Sources */,
 				E188B7CC20AC26240012E78F /* AYTextField.m in Sources */,
 				E188B7C620AC21180012E78F /* NSDate+AYDate.m in Sources */,
+				E109A82B20AD5F3100D88EE6 /* AYTextHelper.m in Sources */,
 				E152D0DD20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m in Sources */,
 				E152D0B820ABC539002D00E6 /* AYFileDownloadManager.m in Sources */,
 				E188B7B820AC1CD90012E78F /* UITableViewCell+AYFastCell.m in Sources */,
+				E109A82E20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

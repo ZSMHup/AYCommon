@@ -174,7 +174,6 @@ static CGFloat const progressViewHeight = 2;
 // KVO
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
 {
-    
     if ([keyPath isEqualToString:NSStringFromSelector(@selector(estimatedProgress))] && object == self.wkWebView) {
         self.progressView.alpha = 1.0;
         BOOL animated = self.wkWebView.estimatedProgress > self.progressView.progress;
@@ -189,7 +188,6 @@ static CGFloat const progressViewHeight = 2;
     } else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
-    
 }
 
 #pragma mark  加载的状态回调（WKNavigationDelegate）
