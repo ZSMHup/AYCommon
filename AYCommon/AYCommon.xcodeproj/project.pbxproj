@@ -28,6 +28,9 @@
 		E188B7CC20AC26240012E78F /* AYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7CB20AC26240012E78F /* AYTextField.m */; };
 		E188B7CF20AC268B0012E78F /* AYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7CE20AC268B0012E78F /* AYTextView.m */; };
 		E188B7D420AC32480012E78F /* UIView+AYView.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7D320AC32480012E78F /* UIView+AYView.m */; };
+		E1AA58C020AE853A00E4CF58 /* AYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BB20AE853A00E4CF58 /* AYProgressHUD.m */; };
+		E1AA58C120AE853A00E4CF58 /* MBProgressHUD+AYHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BD20AE853A00E4CF58 /* MBProgressHUD+AYHUD.m */; };
+		E1AA58C220AE853A00E4CF58 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BF20AE853A00E4CF58 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +98,13 @@
 		E188B7D120AC29160012E78F /* AYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMacro.h; sourceTree = "<group>"; };
 		E188B7D220AC32480012E78F /* UIView+AYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AYView.h"; sourceTree = "<group>"; };
 		E188B7D320AC32480012E78F /* UIView+AYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYView.m"; sourceTree = "<group>"; };
+		E1AA58B920AE853A00E4CF58 /* AYProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AYProgressHUD.bundle; sourceTree = "<group>"; };
+		E1AA58BA20AE853A00E4CF58 /* AYProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYProgressHUD.h; sourceTree = "<group>"; };
+		E1AA58BB20AE853A00E4CF58 /* AYProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYProgressHUD.m; sourceTree = "<group>"; };
+		E1AA58BC20AE853A00E4CF58 /* MBProgressHUD+AYHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+AYHUD.h"; sourceTree = "<group>"; };
+		E1AA58BD20AE853A00E4CF58 /* MBProgressHUD+AYHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AYHUD.m"; sourceTree = "<group>"; };
+		E1AA58BE20AE853A00E4CF58 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E1AA58BF20AE853A00E4CF58 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +160,7 @@
 		E152D0B420ABC4FB002D00E6 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				E1AA58B820AE853A00E4CF58 /* AYProgressHUD */,
 				E109A82820AD5EFA00D88EE6 /* AYTextHelper */,
 				E152D0D820ABE6BF002D00E6 /* AYQRCodeManager */,
 				E152D0CD20ABCD8A002D00E6 /* AYWebView */,
@@ -286,6 +297,20 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
+		E1AA58B820AE853A00E4CF58 /* AYProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E1AA58B920AE853A00E4CF58 /* AYProgressHUD.bundle */,
+				E1AA58BA20AE853A00E4CF58 /* AYProgressHUD.h */,
+				E1AA58BB20AE853A00E4CF58 /* AYProgressHUD.m */,
+				E1AA58BC20AE853A00E4CF58 /* MBProgressHUD+AYHUD.h */,
+				E1AA58BD20AE853A00E4CF58 /* MBProgressHUD+AYHUD.m */,
+				E1AA58BE20AE853A00E4CF58 /* MBProgressHUD.h */,
+				E1AA58BF20AE853A00E4CF58 /* MBProgressHUD.m */,
+			);
+			path = AYProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,10 +371,13 @@
 			files = (
 				E183D12120AD135200FF986C /* AYNotification.m in Sources */,
 				E188B7CF20AC268B0012E78F /* AYTextView.m in Sources */,
+				E1AA58C020AE853A00E4CF58 /* AYProgressHUD.m in Sources */,
 				E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */,
 				E188B7BE20AC1F0C0012E78F /* UITextView+Placeholder.m in Sources */,
 				E152D0DE20ABE6BF002D00E6 /* AYQRCodeScanManager.m in Sources */,
 				E152D0E120ABF2A2002D00E6 /* AYQRCodeAlbumManager.m in Sources */,
+				E1AA58C220AE853A00E4CF58 /* MBProgressHUD.m in Sources */,
+				E1AA58C120AE853A00E4CF58 /* MBProgressHUD+AYHUD.m in Sources */,
 				E188B7D420AC32480012E78F /* UIView+AYView.m in Sources */,
 				E152D0BF20ABC647002D00E6 /* NSString+AYHash.m in Sources */,
 				E152D0D020ABCDAE002D00E6 /* AYWebView.m in Sources */,

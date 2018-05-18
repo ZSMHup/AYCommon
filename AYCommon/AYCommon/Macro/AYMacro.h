@@ -39,7 +39,8 @@ do { \
 || [_object isKindOfClass:[NSNull class]] \
 || ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
 || ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
-
+// NSStringFormat
+#define NSStringFormat(format,...) [NSString stringWithFormat:format,##__VA_ARGS__]
 
 // APP版本号
 #define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
