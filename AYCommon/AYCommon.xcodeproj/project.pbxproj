@@ -31,6 +31,9 @@
 		E1AA58C020AE853A00E4CF58 /* AYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BB20AE853A00E4CF58 /* AYProgressHUD.m */; };
 		E1AA58C120AE853A00E4CF58 /* MBProgressHUD+AYHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BD20AE853A00E4CF58 /* MBProgressHUD+AYHUD.m */; };
 		E1AA58C220AE853A00E4CF58 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BF20AE853A00E4CF58 /* MBProgressHUD.m */; };
+		E1BB02F820B5483E006AE690 /* AYTabMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BB02F720B5483E006AE690 /* AYTabMenu.m */; };
+		E1BB02FB20B54A19006AE690 /* AYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BB02FA20B54A19006AE690 /* AYScrollView.m */; };
+		E1BB02FF20B54B34006AE690 /* AYMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BB02FE20B54B34006AE690 /* AYMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +108,12 @@
 		E1AA58BD20AE853A00E4CF58 /* MBProgressHUD+AYHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AYHUD.m"; sourceTree = "<group>"; };
 		E1AA58BE20AE853A00E4CF58 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E1AA58BF20AE853A00E4CF58 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E1BB02F620B5483E006AE690 /* AYTabMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTabMenu.h; sourceTree = "<group>"; };
+		E1BB02F720B5483E006AE690 /* AYTabMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYTabMenu.m; sourceTree = "<group>"; };
+		E1BB02F920B54A19006AE690 /* AYScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYScrollView.h; sourceTree = "<group>"; };
+		E1BB02FA20B54A19006AE690 /* AYScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYScrollView.m; sourceTree = "<group>"; };
+		E1BB02FD20B54B34006AE690 /* AYMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMenuView.h; sourceTree = "<group>"; };
+		E1BB02FE20B54B34006AE690 /* AYMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +169,8 @@
 		E152D0B420ABC4FB002D00E6 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				E1BB02FC20B54AFD006AE690 /* AYMenuView */,
+				E1BB02F520B54817006AE690 /* AYSwitchVC */,
 				E1AA58B820AE853A00E4CF58 /* AYProgressHUD */,
 				E109A82820AD5EFA00D88EE6 /* AYTextHelper */,
 				E152D0D820ABE6BF002D00E6 /* AYQRCodeManager */,
@@ -311,6 +322,26 @@
 			path = AYProgressHUD;
 			sourceTree = "<group>";
 		};
+		E1BB02F520B54817006AE690 /* AYSwitchVC */ = {
+			isa = PBXGroup;
+			children = (
+				E1BB02F620B5483E006AE690 /* AYTabMenu.h */,
+				E1BB02F720B5483E006AE690 /* AYTabMenu.m */,
+				E1BB02F920B54A19006AE690 /* AYScrollView.h */,
+				E1BB02FA20B54A19006AE690 /* AYScrollView.m */,
+			);
+			path = AYSwitchVC;
+			sourceTree = "<group>";
+		};
+		E1BB02FC20B54AFD006AE690 /* AYMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				E1BB02FD20B54B34006AE690 /* AYMenuView.h */,
+				E1BB02FE20B54B34006AE690 /* AYMenuView.m */,
+			);
+			path = AYMenuView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -375,6 +406,8 @@
 				E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */,
 				E188B7BE20AC1F0C0012E78F /* UITextView+Placeholder.m in Sources */,
 				E152D0DE20ABE6BF002D00E6 /* AYQRCodeScanManager.m in Sources */,
+				E1BB02F820B5483E006AE690 /* AYTabMenu.m in Sources */,
+				E1BB02FB20B54A19006AE690 /* AYScrollView.m in Sources */,
 				E152D0E120ABF2A2002D00E6 /* AYQRCodeAlbumManager.m in Sources */,
 				E1AA58C220AE853A00E4CF58 /* MBProgressHUD.m in Sources */,
 				E1AA58C120AE853A00E4CF58 /* MBProgressHUD+AYHUD.m in Sources */,
@@ -391,6 +424,7 @@
 				E109A82B20AD5F3100D88EE6 /* AYTextHelper.m in Sources */,
 				E152D0DD20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m in Sources */,
 				E152D0B820ABC539002D00E6 /* AYFileDownloadManager.m in Sources */,
+				E1BB02FF20B54B34006AE690 /* AYMenuView.m in Sources */,
 				E188B7B820AC1CD90012E78F /* UITableViewCell+AYFastCell.m in Sources */,
 				E109A82E20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.m in Sources */,
 			);
