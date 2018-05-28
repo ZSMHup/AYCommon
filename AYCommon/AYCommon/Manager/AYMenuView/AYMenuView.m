@@ -118,7 +118,6 @@
         self.tableView.alpha = 1;
         self.alpha = 1;
     }];
-    
 }
 
 #pragma mark - event response

@@ -88,3 +88,6 @@ do { \
 
 #endif /* AYMacro_h */
 
+static inline dispatch_time_t dispatch_time_delay(NSTimeInterval second) {
+    return dispatch_time(DISPATCH_TIME_NOW, (int64_t)(second * NSEC_PER_SEC));
+}
