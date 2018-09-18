@@ -32,11 +32,11 @@
     }
     
     // 某些控制器 不添加手势
-//    for (UIViewController * vc in self.navigationController.viewControllers) {
-//        if ([vc isKindOfClass:NSClassFromString(@"UPersonalViewController")]){
-//            return NO;
-//        }
-//    }
+    for (UIViewController * vc in self.navigationController.viewControllers) {
+        if ([vc isKindOfClass:NSClassFromString(@"NavigationControllerTest2")]){
+            return NO;
+        }
+    }
     
     // 当push、pop动画正在执行时，手势不执行。
     if ([[self.navigationController valueForKey:@"_isTransitioning"] boolValue]) {

@@ -29,14 +29,7 @@
 		E188B7CF20AC268B0012E78F /* AYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7CE20AC268B0012E78F /* AYTextView.m */; };
 		E188B7D420AC32480012E78F /* UIView+AYView.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B7D320AC32480012E78F /* UIView+AYView.m */; };
 		E190C37520BE9C1E003F6A95 /* AYMatchUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C37420BE9C1E003F6A95 /* AYMatchUtils.m */; };
-		E190C38E20BE9C9F003F6A95 /* KMSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C37B20BE9C9F003F6A95 /* KMSwizzle.m */; };
-		E190C38F20BE9C9F003F6A95 /* KMWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C37D20BE9C9F003F6A95 /* KMWeakObjectContainer.m */; };
-		E190C39020BE9C9F003F6A95 /* NSObject+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C37F20BE9C9F003F6A95 /* NSObject+KMNavigationBarTransition.m */; };
-		E190C39120BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C38120BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition.m */; };
-		E190C39220BE9C9F003F6A95 /* UINavigationController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C38420BE9C9F003F6A95 /* UINavigationController+Additions.m */; };
-		E190C39320BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C38620BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition.m */; };
-		E190C39420BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C38920BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition.m */; };
-		E190C39520BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E190C38C20BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition.m */; };
+		E1AA031E2150A8C8009E2163 /* UINavigationController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA031D2150A8C8009E2163 /* UINavigationController+Additions.m */; };
 		E1AA58C020AE853A00E4CF58 /* AYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BB20AE853A00E4CF58 /* AYProgressHUD.m */; };
 		E1AA58C120AE853A00E4CF58 /* MBProgressHUD+AYHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BD20AE853A00E4CF58 /* MBProgressHUD+AYHUD.m */; };
 		E1AA58C220AE853A00E4CF58 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BF20AE853A00E4CF58 /* MBProgressHUD.m */; };
@@ -112,28 +105,8 @@
 		E188B7D320AC32480012E78F /* UIView+AYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYView.m"; sourceTree = "<group>"; };
 		E190C37320BE9C1E003F6A95 /* AYMatchUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMatchUtils.h; sourceTree = "<group>"; };
 		E190C37420BE9C1E003F6A95 /* AYMatchUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMatchUtils.m; sourceTree = "<group>"; };
-		E190C37820BE9C9F003F6A95 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E190C37920BE9C9F003F6A95 /* KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMNavigationBarTransition.h; sourceTree = "<group>"; };
-		E190C37A20BE9C9F003F6A95 /* KMSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSwizzle.h; sourceTree = "<group>"; };
-		E190C37B20BE9C9F003F6A95 /* KMSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSwizzle.m; sourceTree = "<group>"; };
-		E190C37C20BE9C9F003F6A95 /* KMWeakObjectContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMWeakObjectContainer.h; sourceTree = "<group>"; };
-		E190C37D20BE9C9F003F6A95 /* KMWeakObjectContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMWeakObjectContainer.m; sourceTree = "<group>"; };
-		E190C37E20BE9C9F003F6A95 /* NSObject+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
-		E190C37F20BE9C9F003F6A95 /* NSObject+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
-		E190C38020BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
-		E190C38120BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
-		E190C38220BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
-		E190C38320BE9C9F003F6A95 /* UINavigationController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Additions.h"; sourceTree = "<group>"; };
-		E190C38420BE9C9F003F6A95 /* UINavigationController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Additions.m"; sourceTree = "<group>"; };
-		E190C38520BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
-		E190C38620BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
-		E190C38720BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
-		E190C38820BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
-		E190C38920BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
-		E190C38A20BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
-		E190C38B20BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
-		E190C38C20BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
-		E190C38D20BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
+		E1AA031C2150A8C8009E2163 /* UINavigationController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Additions.h"; sourceTree = "<group>"; };
+		E1AA031D2150A8C8009E2163 /* UINavigationController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Additions.m"; sourceTree = "<group>"; };
 		E1AA58B920AE853A00E4CF58 /* AYProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AYProgressHUD.bundle; sourceTree = "<group>"; };
 		E1AA58BA20AE853A00E4CF58 /* AYProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYProgressHUD.h; sourceTree = "<group>"; };
 		E1AA58BB20AE853A00E4CF58 /* AYProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYProgressHUD.m; sourceTree = "<group>"; };
@@ -279,6 +252,8 @@
 		E188B7AD20AC1AEA0012E78F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E1AA031C2150A8C8009E2163 /* UINavigationController+Additions.h */,
+				E1AA031D2150A8C8009E2163 /* UINavigationController+Additions.m */,
 				E188B7B320AC1C750012E78F /* UIColor+AYHex.h */,
 				E188B7B420AC1C750012E78F /* UIColor+AYHex.m */,
 				E188B7B620AC1CD90012E78F /* UITableViewCell+AYFastCell.h */,
@@ -347,38 +322,8 @@
 		E190C37620BE9C9F003F6A95 /* 3rdLib */ = {
 			isa = PBXGroup;
 			children = (
-				E190C37720BE9C9F003F6A95 /* KMNavigationBarTransition */,
 			);
 			path = 3rdLib;
-			sourceTree = "<group>";
-		};
-		E190C37720BE9C9F003F6A95 /* KMNavigationBarTransition */ = {
-			isa = PBXGroup;
-			children = (
-				E190C37820BE9C9F003F6A95 /* Info.plist */,
-				E190C37920BE9C9F003F6A95 /* KMNavigationBarTransition.h */,
-				E190C37A20BE9C9F003F6A95 /* KMSwizzle.h */,
-				E190C37B20BE9C9F003F6A95 /* KMSwizzle.m */,
-				E190C37C20BE9C9F003F6A95 /* KMWeakObjectContainer.h */,
-				E190C37D20BE9C9F003F6A95 /* KMWeakObjectContainer.m */,
-				E190C37E20BE9C9F003F6A95 /* NSObject+KMNavigationBarTransition.h */,
-				E190C37F20BE9C9F003F6A95 /* NSObject+KMNavigationBarTransition.m */,
-				E190C38020BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition.h */,
-				E190C38120BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition.m */,
-				E190C38220BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition_internal.h */,
-				E190C38320BE9C9F003F6A95 /* UINavigationController+Additions.h */,
-				E190C38420BE9C9F003F6A95 /* UINavigationController+Additions.m */,
-				E190C38520BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition.h */,
-				E190C38620BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition.m */,
-				E190C38720BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition_internal.h */,
-				E190C38820BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition.h */,
-				E190C38920BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition.m */,
-				E190C38A20BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition_internal.h */,
-				E190C38B20BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition.h */,
-				E190C38C20BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition.m */,
-				E190C38D20BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition_internal.h */,
-			);
-			path = KMNavigationBarTransition;
 			sourceTree = "<group>";
 		};
 		E1AA58B820AE853A00E4CF58 /* AYProgressHUD */ = {
@@ -478,21 +423,16 @@
 				E1AA58C020AE853A00E4CF58 /* AYProgressHUD.m in Sources */,
 				E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */,
 				E188B7BE20AC1F0C0012E78F /* UITextView+Placeholder.m in Sources */,
-				E190C38E20BE9C9F003F6A95 /* KMSwizzle.m in Sources */,
 				E152D0DE20ABE6BF002D00E6 /* AYQRCodeScanManager.m in Sources */,
 				E1BB02F820B5483E006AE690 /* AYTabMenu.m in Sources */,
 				E1BB02FB20B54A19006AE690 /* AYScrollView.m in Sources */,
 				E152D0E120ABF2A2002D00E6 /* AYQRCodeAlbumManager.m in Sources */,
 				E1AA58C220AE853A00E4CF58 /* MBProgressHUD.m in Sources */,
 				E1AA58C120AE853A00E4CF58 /* MBProgressHUD+AYHUD.m in Sources */,
-				E190C39320BE9C9F003F6A95 /* UINavigationController+KMNavigationBarTransition.m in Sources */,
 				E188B7D420AC32480012E78F /* UIView+AYView.m in Sources */,
 				E152D0BF20ABC647002D00E6 /* NSString+AYHash.m in Sources */,
-				E190C39520BE9C9F003F6A95 /* UIViewController+KMNavigationBarTransition.m in Sources */,
 				E152D0D020ABCDAE002D00E6 /* AYWebView.m in Sources */,
 				E152D0E420ABF3CD002D00E6 /* UIImage+AYImageSize.m in Sources */,
-				E190C39220BE9C9F003F6A95 /* UINavigationController+Additions.m in Sources */,
-				E190C38F20BE9C9F003F6A95 /* KMWeakObjectContainer.m in Sources */,
 				E152D0BB20ABC59C002D00E6 /* AYFileSessionModel.m in Sources */,
 				E188B7BB20AC1DA50012E78F /* UIButton+AYCountdown.m in Sources */,
 				E188B7B120AC1B1A0012E78F /* AYKeychain.m in Sources */,
@@ -500,15 +440,13 @@
 				E188B7CC20AC26240012E78F /* AYTextField.m in Sources */,
 				E188B7C620AC21180012E78F /* NSDate+AYDate.m in Sources */,
 				E109A82B20AD5F3100D88EE6 /* AYTextHelper.m in Sources */,
+				E1AA031E2150A8C8009E2163 /* UINavigationController+Additions.m in Sources */,
 				E152D0DD20ABE6BF002D00E6 /* AYQRCodeGenerateManager.m in Sources */,
 				E152D0B820ABC539002D00E6 /* AYFileDownloadManager.m in Sources */,
-				E190C39020BE9C9F003F6A95 /* NSObject+KMNavigationBarTransition.m in Sources */,
 				E1BB02FF20B54B34006AE690 /* AYMenuView.m in Sources */,
-				E190C39120BE9C9F003F6A95 /* UINavigationBar+KMNavigationBarTransition.m in Sources */,
 				E190C37520BE9C1E003F6A95 /* AYMatchUtils.m in Sources */,
 				E188B7B820AC1CD90012E78F /* UITableViewCell+AYFastCell.m in Sources */,
 				E109A82E20AD65AF00D88EE6 /* UILabel+AYLabelTextHelper.m in Sources */,
-				E190C39420BE9C9F003F6A95 /* UIScrollView+KMNavigationBarTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
