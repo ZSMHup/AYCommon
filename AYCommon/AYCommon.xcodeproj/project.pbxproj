@@ -33,6 +33,7 @@
 		E1AA58C020AE853A00E4CF58 /* AYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BB20AE853A00E4CF58 /* AYProgressHUD.m */; };
 		E1AA58C120AE853A00E4CF58 /* MBProgressHUD+AYHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BD20AE853A00E4CF58 /* MBProgressHUD+AYHUD.m */; };
 		E1AA58C220AE853A00E4CF58 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA58BF20AE853A00E4CF58 /* MBProgressHUD.m */; };
+		E1B421BD22CC5DE2007217EB /* NSString+AYT.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B421BC22CC5DE2007217EB /* NSString+AYT.m */; };
 		E1BB02F820B5483E006AE690 /* AYTabMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BB02F720B5483E006AE690 /* AYTabMenu.m */; };
 		E1BB02FB20B54A19006AE690 /* AYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BB02FA20B54A19006AE690 /* AYScrollView.m */; };
 		E1BB02FF20B54B34006AE690 /* AYMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BB02FE20B54B34006AE690 /* AYMenuView.m */; };
@@ -114,6 +115,8 @@
 		E1AA58BD20AE853A00E4CF58 /* MBProgressHUD+AYHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AYHUD.m"; sourceTree = "<group>"; };
 		E1AA58BE20AE853A00E4CF58 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E1AA58BF20AE853A00E4CF58 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E1B421BB22CC5DE2007217EB /* NSString+AYT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AYT.h"; sourceTree = "<group>"; };
+		E1B421BC22CC5DE2007217EB /* NSString+AYT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AYT.m"; sourceTree = "<group>"; };
 		E1BB02F620B5483E006AE690 /* AYTabMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTabMenu.h; sourceTree = "<group>"; };
 		E1BB02F720B5483E006AE690 /* AYTabMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYTabMenu.m; sourceTree = "<group>"; };
 		E1BB02F920B54A19006AE690 /* AYScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYScrollView.h; sourceTree = "<group>"; };
@@ -266,6 +269,8 @@
 				E188B7C520AC21180012E78F /* NSDate+AYDate.m */,
 				E188B7D220AC32480012E78F /* UIView+AYView.h */,
 				E188B7D320AC32480012E78F /* UIView+AYView.m */,
+				E1B421BB22CC5DE2007217EB /* NSString+AYT.h */,
+				E1B421BC22CC5DE2007217EB /* NSString+AYT.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 			files = (
 				E183D12120AD135200FF986C /* AYNotification.m in Sources */,
 				E188B7CF20AC268B0012E78F /* AYTextView.m in Sources */,
+				E1B421BD22CC5DE2007217EB /* NSString+AYT.m in Sources */,
 				E1AA58C020AE853A00E4CF58 /* AYProgressHUD.m in Sources */,
 				E152D0E720ABF969002D00E6 /* AYQRCodeScanningView.m in Sources */,
 				E188B7BE20AC1F0C0012E78F /* UITextView+Placeholder.m in Sources */,
